@@ -1,15 +1,27 @@
-# 📘 Study Companion Chatbot
+# 📘 SoloMind: Study Companion Chatbot
 
 A modern, interactive chatbot designed to help students study smarter using their own course materials. Upload your class notes (PDFs or PowerPoint files), ask questions, generate summaries, and take quizzes—all powered by local language models and vector search.
 
-![SoloMind Logo](logo/solomind-logo-text.png)
+## Table of Contents
+
+- [Demo](#-demo)
+- [Why Use Study Companion Chatbot Instead of ChatGPT or Online Competitors?](#why-use-study-companion-chatbot-instead-of-chatgpt-or-online-competitors)
+- [Features](#features)
+- [Installation Instructions](#installation-instructions)
+- [Configuration](#configuration)
+- [Running the Application](#running-the-application)
+- [Usage Examples](#usage-examples)
+- [Contributing](#contributing)
+- [License](#license)
+- [Known Limitations](#known-limitations)
+- [Additional Notes](#additional-notes)
 
 ## 🎬 Demo
 
 Check out a video demo of the Chatbot in action:  
 [![Watch the demo](https://img.youtube.com/vi/rj0F65ZWhs0/0.jpg)](https://youtu.be/rj0F65ZWhs0)
 
-Or watch directly on YouTube: [https://youtu.be/rj0F65ZWhs0](https://youtu.be/rj0F65ZWhs0)
+Or copy the link if the above embed doesn't work: [https://youtu.be/rj0F65ZWhs0](https://youtu.be/rj0F65ZWhs0)
 
 ---
 
@@ -27,13 +39,13 @@ Or watch directly on YouTube: [https://youtu.be/rj0F65ZWhs0](https://youtu.be/rj
 
 ## Features
 
-[x] Upload PDFs and PPT/PPTX files for course notes and slides.
-[x] Get detailed, cited answers from your files thanks to local vector embeddings (FAISS) to retrieve the most relevant content for your queries.
-[x] Generate concise summaries of any topic in your files.
-[x] Create and take multiple-choice quizzes with instant grading and feedback.
-[x] Track your learning progress and quiz history on the website's sidebar.
-[x] Modern, user-friendly Streamlit website interface.
-[x] Fully open-source and model customizable.
+- [x] Upload PDFs and PPT/PPTX files for course notes and slides.
+- [x] Get detailed, cited answers from your files thanks to local vector embeddings (FAISS) to retrieve the most relevant content for your queries.
+- [x] Generate concise summaries of any topic in your files.
+- [x] Create and take multiple-choice quizzes with instant grading and feedback.
+- [x] Track your learning progress and quiz history on the website's sidebar.
+- [x] Modern, user-friendly Streamlit website interface.
+- [x] Fully open-source and model customizable.
 
 ---
 
