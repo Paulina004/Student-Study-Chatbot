@@ -4,17 +4,17 @@ A modern, interactive chatbot designed to help students study smarter using thei
 
 ## Table of Contents
 
-- [Demo](#-demo)
-- [Why Use Study Companion Chatbot Instead of ChatGPT or Online Competitors?](#why-use-study-companion-chatbot-instead-of-chatgpt-or-online-competitors)
-- [Features](#features)
-- [Installation Instructions](#installation-instructions)
-- [Configuration](#configuration)
-- [Running the Application](#running-the-application)
-- [Usage Examples](#usage-examples)
-- [Contributing](#contributing)
-- [License](#license)
-- [Known Limitations](#known-limitations)
-- [Additional Notes](#additional-notes)
+- [🎬 Demo](#-demo)
+- [❓ Why Use Study Companion Chatbot Instead of ChatGPT or Online Competitors?](#-why-use-study-companion-chatbot-instead-of-chatgpt-or-online-competitors)
+- [✨ Features](#-features)
+- [⚙️ Installation Instructions](#-installation-instructions)
+- [🔧 Configuration](#-configuration)
+- [🚀 Running the Application](#-running-the-application)
+- [💡 Usage Examples](#-usage-examples)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
+- [⚠️ Known Limitations](#-known-limitations)
+- [📝 Additional Notes](#-additional-notes)
 
 ## 🎬 Demo
 
@@ -25,7 +25,7 @@ Or copy the link if the above embed doesn't work: [https://youtu.be/rj0F65ZWhs0]
 
 ---
 
-## Why Use Study Companion Chatbot Instead of ChatGPT or Online Competitors?
+## ❓ Why Use Study Companion Chatbot Instead of ChatGPT or Online Competitors?
 
 - **🔒 100% Local & Private:** Your notes never leave your computer—no cloud uploads, no data mining, no tracking.
 - **📚 Personalized Answers:** Responses are grounded in your actual course materials, not generic web data. Fights hallucinations and irrelevant content.
@@ -37,7 +37,7 @@ Or copy the link if the above embed doesn't work: [https://youtu.be/rj0F65ZWhs0]
 
 ---
 
-## Features
+## ✨ Features
 
 - [x] Upload PDFs and PPT/PPTX files for course notes and slides.
 - [x] Get detailed, cited answers from your files thanks to local vector embeddings (FAISS) to retrieve the most relevant content for your queries.
@@ -49,7 +49,7 @@ Or copy the link if the above embed doesn't work: [https://youtu.be/rj0F65ZWhs0]
 
 ---
 
-## Installation Instructions
+## ⚙️ Installation Instructions
 
 ### Prerequisites
 
@@ -88,7 +88,7 @@ ollama serve  # If not started automatically
 
 ---
 
-## Configuration
+## 🔧 Configuration
 
 - **No environment variables are strictly required for local use.**
 - By default, all uploaded files and vector indices are stored in a local `data/` directory.
@@ -96,7 +96,7 @@ ollama serve  # If not started automatically
 
 ---
 
-## Running the Application
+## 🚀 Running the Application
 
 From the project root directory, run:
 
@@ -109,7 +109,20 @@ streamlit run app.py
 
 ---
 
-## Usage Examples
+### 🧪 Testing with Sample Course Materials
+
+You can test the Study Companion Chatbot using the sample files provided in the `course-materials-for-testing` directory. These include a variety of PDFs and PowerPoint presentations (PPT/PPTX) that are ideal for trying out the app's features such as Q&A, summarization, and quiz generation.
+
+The included PowerPoint files are sourced from the publicly available Stanford NLP course materials by Dan Jurafsky and Christopher Manning. You can find the original slides and more resources at the official Stanford NLP Coursera page:
+[https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html](https://web.stanford.edu/~jurafsky/NLPCourseraSlides.html)
+
+**How to use for testing:**
+- Upload any of the files from `course-materials-for-testing` using the sidebar in the app.
+- Try asking questions, requesting summaries, or generating quizzes based on the uploaded content.
+
+---
+
+## 💡 Usage Examples
 
 - **Ask a Question (Default Mode):**  
   Type a question about your uploaded notes, e.g.,  
@@ -127,7 +140,7 @@ streamlit run app.py
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 Found a bug? Please open an issue on GitHub or contact [Paulina004](https://github.com/Paulina004) directly.
 
@@ -135,7 +148,7 @@ Found a bug? Please open an issue on GitHub or contact [Paulina004](https://gith
 
 ---
 
-## License
+## 📄 License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0).
 
@@ -152,7 +165,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial-No
 
 ---
 
-## Known Limitations
+## ⚠️ Known Limitations
 
 - **Local-Only:** The app is designed for local use and requires Ollama and FAISS. It does not support cloud-based LLMs or vector stores out of the box.
 - **Model Support:** Only models available via Ollama and HuggingFace are supported. You may need to adjust code for other models.
@@ -163,7 +176,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial-No
 
 ---
 
-## Additional Notes
+## 📝 Additional Notes
 
 - **Security:** All processing is local; your documents are never uploaded to a server.
 - **Extensibility:** The codebase is modular—add new workflows, models, or UI components as needed.
